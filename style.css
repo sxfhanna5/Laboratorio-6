@@ -40,7 +40,7 @@ body {
     
   }
 
-  .character text {
+  .character name {
     color: rgb(11, 56, 168);
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -48,7 +48,7 @@ body {
     margin-bottom: 10px;
   }
 
-  .character text2 {
+  .character message {
     color: rgb(175, 175, 175);
     font-size: 12px;
     padding-bottom: 10px;

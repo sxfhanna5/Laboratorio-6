@@ -10,11 +10,11 @@ for (let index = 1; index <=826; index++) {
       elemento.setAttribute("src", "https://rickandmortyapi.com/api/character/avatar/" + index + ".jpeg");
       div.append(elemento);
 
-      const btnFavoritos = document.createElement("text");
+      const btnFavoritos = document.createElement("name");
       btnFavoritos.innerText = "Character " + index;
       div.append(btnFavoritos);
 
-      const btnCharacter = document.createElement("text2");
+      const btnCharacter = document.createElement("message");
       btnCharacter.innerText = "Esta es mi publicación número " + index + ". Esto es una prueba de generación de relleno por medio de funciones y ciclos.";
       div.append(btnCharacter);
 
